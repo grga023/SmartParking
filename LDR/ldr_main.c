@@ -1,7 +1,7 @@
 #include "ldr_main.h"
 #include "pinSetup.h"
 
-void ldr( Spots ParkingSpot )
+void ldr_main( Spots ParkingSpot )
 {
     analogRead(LDR0) < THRESHOLD ? ( ParkingSpot[0] = b_TRUE ) : ( ParkingSpot[0] = b_FALSE );
     analogRead(LDR1) < THRESHOLD ? ( ParkingSpot[1] = b_TRUE ) : ( ParkingSpot[1] = b_FALSE );
