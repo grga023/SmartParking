@@ -1,5 +1,6 @@
 #include "ldr_main.h"
 #include "pinSetup.h"
+#include "ledSetup.h"
 
 void ldr_main( Spots ParkingSpot )
 {

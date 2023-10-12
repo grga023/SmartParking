@@ -1,4 +1,6 @@
-#include <ledSetup.h>
+#include "ledSetup.h"
+#include "pinSetup.h"
+
 
 const int DIODE_G[] = { LED0_G, LED1_G, LED2_G, LED3_G};
 const int DIODE_R[] = { LED0_R, LED1_R, LED2_R, LED3_R};
